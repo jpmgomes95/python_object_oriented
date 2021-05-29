@@ -13,4 +13,4 @@ def withdraw(account, value):
 
 
 def bank_statement(account):
-    print("Your bank statement is {}".format(account["balance"]))
+    print("Your bank balance is: {}".format(account["balance"]))
